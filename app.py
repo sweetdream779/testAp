@@ -7,6 +7,7 @@ def wsgi_app(environ, start_response):
 
 if __name__ == '__main__':
     from wsgiref.simple_server import make_server
+    from flask import Flask
 
     httpd = make_server('localhost', 5555, wsgi_app)
     httpd.serve_forever()
