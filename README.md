@@ -1,6 +1,3 @@
 # testAp
 
-Test application.
-dsfaas
-
-sadfdsf
+Test application
